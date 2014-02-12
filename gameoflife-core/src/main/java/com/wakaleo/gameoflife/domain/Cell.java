@@ -1,9 +1,9 @@
-package com.wakaleo.gameoflife.domain;
+Richpackage com.wakaleo.gameoflife.domain;
 
-public enum Cell {
+Richpublic enum Cell {
     LIVE_CELL("+"), DEAD_CELL(".");
 
-    private String symbol;
+    Richprivate String symbol;
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
