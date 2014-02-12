@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-//package com.wakaleo.gameoflife.domain;
+package com.wakaleo.gameoflife.domain;
 
-//public enum Cell {
-=======
-Richpackage com.wakaleo.gameoflife.domain;
+public enum Cell {
+package com.wakaleo.gameoflife.domain;
 
-Richpublic enum Cell {
->>>>>>> df3be85297654083eea962818d8bacf7189bb849
-    LIVE_CELL("+"), DEAD_CELL(".");
+public enum Cell {
+    LIVE_CELL("*"), DEAD_CELL(".");
 
     Richprivate String symbol;
 
